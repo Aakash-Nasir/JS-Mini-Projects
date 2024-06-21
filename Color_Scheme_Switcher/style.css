@@ -1,0 +1,48 @@
+html {
+    margin-top:200px  ;
+}
+body{
+   width: 100vw;
+   height: 100vh;
+}
+span{
+    display: block;
+}
+h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.canvas{
+    margin: -100px auto 100px;
+    width: 80%;
+    text-align:center;
+}
+
+.button{
+    width: 90px;
+    height: 90px;
+    border: solid black 2px;
+    display: inline-block;
+
+}
+.button:hover{
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+#grey{
+    background-color: grey;
+}
+#white{
+    background-color: white;
+
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+#orange{
+    background-color: orange;
+}
